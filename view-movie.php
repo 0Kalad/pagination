@@ -1,4 +1,4 @@
 <div class="pelicula">
-    <img src="imagenes/poster01.jpeg" alt="">
-    <p>Nombre de la película</p>
-</div>  
+    <img src="images/<?php echo $movie['image']; ?>.jpeg" alt="">
+    <p><?php echo $movie['name']; ?></p>
+</div>

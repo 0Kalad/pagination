@@ -6,15 +6,13 @@ class DB
     private $db;
     private $user;
     private $password;
-    private $charset;
 
     public function __construct()
     {
         $this->host = 'localhost';
-        $this->db = 'encuesta';
+        $this->db = 'movies';
         $this->user = 'root';
         $this->password = '';
-        $this->charset = 'utf8mb4';
     }
 
     function connect()
